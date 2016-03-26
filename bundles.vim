@@ -17,20 +17,25 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'spf13/PIV'
 Plugin 'majutsushi/tagbar'
 Plugin 'tpope/vim-dispatch'
+" Needed by plasticboy/vim-markdown
+Plugin 'godlygeek/tabular'
 
 " Syntax highlight
 Plugin 'hdima/python-syntax'
 Plugin 'hail2u/vim-css3-syntax'
+Plugin 'ap/vim-css-color'
 Plugin 'peterhoeg/vim-qml'
 Plugin 'othree/html5.vim'
 Plugin 'kchmck/vim-coffee-script'
-Plugin 'tpope/vim-markdown'
-Plugin 'vitaly/vim-literate-coffeescript'
+Plugin 'plasticboy/vim-markdown'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'tmux-plugins/vim-tmux'
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'justinmk/vim-syntax-extra'
 Plugin 'wting/rust.vim'
+
+" Literate programming
+Plugin 'khardix/vim-literate'
 
 " Completion and syntax checking
 Plugin 'Valloric/YouCompleteMe'
@@ -41,6 +46,7 @@ Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'mmai/wikilink'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'lervag/vimtex'
+Plugin 'junegunn/goyo.vim'
 
 " Misc
 Plugin 'Raimondi/delimitMate'
