@@ -8,6 +8,9 @@ filetype off
 source ~/.vim/bundles.vim
 
 filetype plugin indent on
+" === Encoding ===
+set encoding=utf-8
+set fileencoding=utf-8
 
 " === Look ===
 set ruler " Show cursor position
@@ -97,3 +100,6 @@ source ~/.vim/ftypes.vim
 
 " === Custom keybindings ===
 source ~/.vim/keybinds.vim
+
+autocmd FileType java setlocal omnifunc=javacomplete#Complete
+let g:indentLine_color_term = 239

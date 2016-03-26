@@ -22,8 +22,8 @@ Plugin 'godlygeek/tabular'
 
 " Syntax highlight
 Plugin 'hdima/python-syntax'
-Plugin 'hail2u/vim-css3-syntax'
 Plugin 'ap/vim-css-color'
+Plugin 'hail2u/vim-css3-syntax'
 Plugin 'peterhoeg/vim-qml'
 Plugin 'othree/html5.vim'
 Plugin 'kchmck/vim-coffee-script'
@@ -53,9 +53,16 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'docunext/closetag.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
-Plugin 'qpkorr/vim-bufkill'
-Plugin 'ap/vim-buftabline'
-Plugin 'tpope/vim-eunuch'
+Plugin 'qpkorr/vim-bufkill' "
+Plugin 'ap/vim-buftabline' "
+Plugin 'tpope/vim-eunuch' "
+
+
+"My plugins
+Plugin 'szw/vim-tags'
+Plugin 'Yggdroot/indentLine'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'dansomething/vim-eclim'
 
 " Ending
 call vundle#end()
