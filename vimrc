@@ -52,9 +52,9 @@ set nojoinspaces
 set autoindent
 set cindent
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set smarttab
 set shiftround
 set expandtab
@@ -103,3 +103,4 @@ source ~/.vim/keybinds.vim
 
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 let g:indentLine_color_term = 239
+let g:ycm_server_python_interpreter = '/usr/bin/python' 
