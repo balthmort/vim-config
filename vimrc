@@ -102,5 +102,8 @@ source ~/.vim/ftypes.vim
 source ~/.vim/keybinds.vim
 
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
+let g:JavaComplete_Home = $HOME . '/.vim/bundle/vim-javacomplete2'
+let $CLASSPATH .= '.:' . $HOME . '/.vim/bundle/vim-javacomplete2/lib/javavi/target/classes'
+
 let g:indentLine_color_term = 239
 let g:ycm_server_python_interpreter = '/usr/bin/python' 

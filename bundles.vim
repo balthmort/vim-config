@@ -63,7 +63,6 @@ Plugin 'tpope/vim-eunuch' "
 Plugin 'szw/vim-tags'
 Plugin 'Yggdroot/indentLine'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'dansomething/vim-eclim'
 
 " Ending
 call vundle#end()
