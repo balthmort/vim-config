@@ -17,7 +17,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'spf13/PIV'
 Plugin 'majutsushi/tagbar'
 Plugin 'tpope/vim-dispatch'
-" Needed by plasticboy/vim-markdown
 Plugin 'godlygeek/tabular'
 
 " Syntax highlight
