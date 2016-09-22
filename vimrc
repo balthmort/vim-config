@@ -92,6 +92,9 @@ set pastetoggle=<F11> " Toggle nice text pasting from outside vim
 " === Folding ===
 set foldmethod=marker
 
+" === Ignoring ===
+set wildignore=*.pyc,*.o
+
 " === Macros ===
 source ~/.vim/macros.vim
 

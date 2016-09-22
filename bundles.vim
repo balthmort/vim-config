@@ -41,6 +41,7 @@ Plugin 'khardix/vim-literate'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'rdnetto/YCM-Generator'
 Plugin 'artur-shaik/vim-javacomplete2'
+Plugin 'nvie/vim-flake8'
 
 " Prose/text editing
 Plugin 'mmai/wikilink'
@@ -62,6 +63,8 @@ Plugin 'tpope/vim-eunuch' "
 Plugin 'szw/vim-tags'
 Plugin 'Yggdroot/indentLine'
 Plugin 'ctrlpvim/ctrlp.vim'
+
+Plugin 'tpope/vim-abolish'
 
 " Ending
 call vundle#end()
