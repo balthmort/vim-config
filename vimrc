@@ -110,3 +110,14 @@ let $CLASSPATH .= '.:' . $HOME . '/.vim/bundle/vim-javacomplete2/lib/javavi/targ
 
 let g:indentLine_color_term = 239
 let g:ycm_server_python_interpreter = '/usr/bin/python' 
+
+""""""""""
+" tmux fixes "
+" """""""""
+" " Handle tmux $TERM quirks in vim
+if $TERM =~ '^screen-256color'
+  map <Esc>OH <Home>
+  map! <Esc>OH <Home>
+  map <Esc>OF <End>
+  map! <Esc>OF <End>
+endif"
